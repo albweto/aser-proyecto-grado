@@ -15,6 +15,13 @@ create table Medidas(
      id int(10) NOT NULL AUTO_INCREMENT,
      pc_pierna  decimal not null,
      pc_axilar decimal not null,
+     pc_pecho decimal not null,
+     pc_abdominal decimal not null,
+     pc_muslo decimal not null,
+     pc_supralico decimal not null,
+     pc_supralico decimal not null,
+     pc_tricipital decimal not null,
+     pc_bicipital decimal not null,
      usuario_id int
      primary key (id),
      foreign key (usuario_id) references Usurio (id)
